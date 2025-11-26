@@ -1,8 +1,8 @@
 #include <WiFiS3.h>
 #include "Arduino_LED_Matrix.h"
 
-char ssid[] = "SSID";      // <--- metti il nome della tua rete
-char pass[] = "password";  // <--- metti la password
+char ssid[] = "CorsoRobotica";      // <--- metti il nome della tua rete
+char pass[] = "passwordDifficilissima";  // <--- metti la password
 
 WiFiServer server(80);
 ArduinoLEDMatrix matrix;
